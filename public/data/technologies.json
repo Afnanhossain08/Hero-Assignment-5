@@ -14,7 +14,7 @@
     "name": "Next.js",
     "category": "Frontend",
     "description": "A React framework that adds routing, server rendering, and image optimisation so you can ship production apps faster.",
-    "icon": "/image/Nextjs.png",
+    "icon": "/image/nextjs.jpg",
     "rating": 4.8,
     "difficulty": "Intermediate",
     "badge": "Full-Stack"
@@ -24,7 +24,7 @@
     "name": "Node.js",
     "category": "Backend",
     "description": "A JavaScript runtime built on Chrome's V8 engine that lets you run server-side code and build fast network applications.",
-    "icon": "/image/Nodejs.png",
+    "icon": "/image/Nodejs.jpg",
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
     "badge": "Essential"
@@ -44,7 +44,7 @@
     "name": "Django",
     "category": "Backend",
     "description": "A batteries-included Python web framework that handles authentication, an admin panel, and an ORM right out of the box.",
-    "icon": "/image/Django.png",
+    "icon": "/image/django.png",
     "rating": 4.6,
     "difficulty": "Intermediate",
     "badge": "Batteries-Included"
@@ -54,7 +54,7 @@
     "name": "PostgreSQL",
     "category": "Database",
     "description": "A powerful, open-source object-relational database system known for reliability, extensibility, and strict data integrity.",
-    "icon": "/image/Postgresql.png",
+    "icon": "/image/PostgreSQL.png",
     "rating": 4.9,
     "difficulty": "Intermediate",
     "badge": "Top SQL"
@@ -64,7 +64,7 @@
     "name": "MongoDB",
     "category": "Database",
     "description": "A document-oriented NoSQL database that stores flexible, JSON-like records, making it easy to evolve your schema over time.",
-    "icon": "/image/Mongodb.png",
+    "icon": "/image/MongoBD.png",
     "rating": 4.6,
     "difficulty": "Beginner-Friendly",
     "badge": "Flexible"
@@ -84,7 +84,7 @@
     "name": "TypeScript",
     "category": "Language",
     "description": "A typed superset of JavaScript that catches mistakes at compile time and makes large codebases easier to navigate.",
-    "icon": "/image/Typescript.png",
+    "icon": "/image/TypeScript.png",
     "rating": 4.8,
     "difficulty": "Intermediate",
     "badge": "Type-Safe"
