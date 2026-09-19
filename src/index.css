@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  --gradient-brand: linear-gradient(90deg, #ff5a2e 0%, #e31c79 50%, #8339e9 100%);
+  --color-accent: #db2777;
+
+  --color-bg: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f8fafc;
+  --color-border: #e5e7eb;
+  --color-border-soft: #f1f5f9;
+  --color-text: #0f172a;
+  --color-text-muted: #64748b;
+  --color-text-faint: #94a3b8;
+  --color-dark-btn: #0f172a;
+  --color-dark-btn-hover: #1e293b;
+
+  --font-display: "Sora", "Inter", sans-serif;
+  --font-body: "Inter", "Sora", sans-serif;
+}
+
+:root {
+  --font-display: "Sora", "Inter", sans-serif;
+  --font-body: "Inter", "Sora", sans-serif;
+
+  --color-bg: #ffffff;
+  --color-surface: #ffffff;
+  --color-border: #e5e7eb;
+  --color-border-soft: #f1f5f9;
+  --color-ink: #0f172a;
+  --color-ink-muted: #64748b;
+  --color-ink-faint: #94a3b8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+}
+
+::selection {
+  background: var(--color-accent);
+  color: #ffffff;
+}
+
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.text-gradient {
+  background-image: var(--gradient-brand);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.bg-gradient-brand {
+  background-image: var(--gradient-brand);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
