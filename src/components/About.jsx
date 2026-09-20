@@ -21,7 +21,7 @@ export default function About({ technologyCount, categoryCount })
             you've settled on.
           </p>
           <p className="mt-4 max-w-lg text-base leading-relaxed text-[var(--color-ink-muted)]">
-            Nothing you add gets pushed anywhere — your stack lives in this
+            Nothing you add gets pushed anywhere your stack lives in this
             session so you can experiment freely before you commit to it in
             a real project.
           </p>
