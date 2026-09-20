@@ -9,14 +9,13 @@ export function useTechnologies()
     useEffect(() => 
         {
         let cancelled = false;
-
         async function loadTechnologies() 
         {
             try 
             {
                 const response = await fetch("/data/technologies.json");
-                if (!response.ok) 
-                    {
+                if (!response.ok)
+                {
                     throw new Error(`Request failed ${response.status}`);
                 }
                 const data = await response.json();
@@ -43,10 +42,7 @@ export function useTechnologies()
 
         loadTechnologies();
 
-        return () => 
-            {
-            cancelled = true;
-        };
+        return () => {cancelled = true;};
     }, []);
 
     return { technologies, isLoading, error };

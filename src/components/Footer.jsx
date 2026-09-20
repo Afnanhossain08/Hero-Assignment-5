@@ -9,6 +9,7 @@ const LINK_GROUPS = [
       { label: 'Projects', href: '#projects' },
     ],
   },
+
   {
     title: 'Company',
     links: [
@@ -17,6 +18,7 @@ const LINK_GROUPS = [
       { label: 'Careers', href: '#careers' },
     ],
   },
+
   {
     title: 'Legal',
     links: [
@@ -25,7 +27,6 @@ const LINK_GROUPS = [
     ],
   },
 ]
-
 const SOCIALS = [
   { label: 'GitHub', href: 'https://github.com' },
   { label: 'Twitter', href: 'https://twitter.com' },
@@ -34,7 +35,6 @@ const SOCIALS = [
 
 export default function Footer() {
   const year = new Date().getFullYear()
-
   return (
     <footer id="contact" className="border-t border-[var(--color-border)] bg-[var(--color-bg)]">
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
@@ -85,7 +85,7 @@ export default function Footer() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-[var(--color-border)] pt-6 sm:flex-row">
           <p className="text-xs text-[var(--color-ink-faint)]">
-            © {year} Dev Stack. All rights reserved.
+            © 2026 Dev Stack. All rights reserved.
           </p>
           <div className="flex items-center gap-5">
             <a href="#privacy" className="text-xs text-[var(--color-ink-faint)] hover:text-[var(--color-ink)]">

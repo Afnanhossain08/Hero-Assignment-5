@@ -48,8 +48,7 @@ export default function StackSidebar({ stack, onRemove, onRemoveAll })
         <button
           type="button"
           onClick={onRemoveAll}
-          className="mt-4 w-full rounded-lg border border-red-200 bg-white py-2.5 text-sm font-semibold text-red-600 transition-colors hover:bg-red-50"
-        >
+          className="mt-4 w-full rounded-lg border border-red-200 bg-white py-2.5 text-sm font-semibold text-red-600 transition-colors hover:bg-red-50">
           Remove All
         </button>
       )}

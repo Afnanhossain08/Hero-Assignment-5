@@ -1,4 +1,4 @@
-`The name of my project is **Dev Stack** `
+The name of my project is **Dev Stack** 
 
 ---
 

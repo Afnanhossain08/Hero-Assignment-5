@@ -1,6 +1,7 @@
 import bannerStack from '../assets/banner-stack.png'
 
-export default function Hero() {
+export default function Hero() 
+{
   return (
     <section id="home" className="border-b border-[var(--color-border)]">
       <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 md:grid-cols-2 md:items-center md:py-24 lg:px-8">

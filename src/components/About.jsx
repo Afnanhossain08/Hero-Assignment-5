@@ -1,4 +1,5 @@
-export default function About({ technologyCount, categoryCount }) {
+export default function About({ technologyCount, categoryCount }) 
+{
   const stats = [
     { label: 'Technologies catalogued', value: technologyCount },
     { label: 'Categories covered', value: categoryCount },
