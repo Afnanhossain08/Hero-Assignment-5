@@ -4,7 +4,7 @@ The name of my project is **Dev Stack**
 
 **A little description of Dev Stack**
 
-Dev Stack is a browser-based catalogue of frontend, backend, database and Devops tools that enables you to compare tools side by side and then save the ones you actually intend to use alongside one another in a single shareable "stack". You no longer have to have notes on multiple browser tabs or in old repos, you'll have one place to browse, filter, and add it to your short list for your next project.
+Dev Stack is a browser based catalogue of frontend, backend, database and Devops tools that enables you to compare tools side by side and then save the ones you actually intend to use alongside one another in a single shareable "Stack". You no longer have to have notes on multiple browser tabs or in old repos, you'll have one place to browse, filter, and add it to your short list for your next project.
 
 ---
 
